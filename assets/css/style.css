@@ -1,0 +1,44 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    color: darkgray;
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: darkgray;
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px
+}
+
+#directions {
+    line-height: 20px;
+    margin: 2px
+}
+
+h5 {
+    text-align: center;
+    font-size: 15px;
+    color: darkgray;
+    font-family: 'Rammetto One', cursive;
+    margin-top: 40px
+}
+
+#selectcrystals {
+    margin-bottom: 40px;
+}
+
+#wins, #losses {
+    font-size: 16px;
+}
+
+#userNumber, #targetNumber {
+    font-size: 30px;
+    margin-top: 60px
+}

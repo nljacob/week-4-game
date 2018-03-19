@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crystals Collector Game</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>CRYSTALS COLLECTOR</h1>
+    
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h3>DIRECTIONS</h3>
+                <ol>
+                    <li>You will be given a random number (target number) at the start of the game.</li>
+                    <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your number.</li>
+                    <li>You win the game by matching your total score to the target number. You lose the game if your total score goes above the target number.</li>
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                </ol>
+            </div>
+            <div class="col-md-6">
+                <h3>TARGET NUMBER:</h3>
+                <h1 id="targetNumber"></h1>
+        </div>
+        
+    </div>
+        <div class="row">
+            <div class="col-md-6" class="class">
+                <div class="row">
+                    <h3 id="selectcrystals">SELECT CRYSTALS</h3>
+                    <div class="col-md-3"><img id="blue" src="assets/images/blue.png" alt="blue crystal"></div>
+                    <div class="col-md-3"><img id="green" src="assets/images/green.png" alt="green crystal"></div>
+                    <div class="col-md-3"><img id="red" src="assets/images/red.png" alt="red crystal"></div>
+                    <div class="col-md-3"><img id="yellow" src="assets/images/yellow.png" alt="yellow crystal"></div>            
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>YOUR NUMBER:</h3>
+                <h1 id="userNumber"></h1>
+            </div>
+    </div>
+        
+        
+        <div class="row" id="winslosses">
+            <div class="col-md-6">
+                <h5>WINS:</h5>
+                <h1 id="wins"></h1>
+            </div>
+            <div class="col-md-6">
+                <h5>LOSSES:</h5>
+                <h1 id="losses"></h1>
+            </div>
+        </div>    
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
